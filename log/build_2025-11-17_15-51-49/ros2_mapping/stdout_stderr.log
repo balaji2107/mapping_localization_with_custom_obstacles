@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/ros2_mapping/ros2_mapping.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_mapping/ros2_mapping.egg-info/dependency_links.txt
+writing requirements to ../../build/ros2_mapping/ros2_mapping.egg-info/requires.txt
+writing top-level names to ../../build/ros2_mapping/ros2_mapping.egg-info/top_level.txt
+reading manifest file '../../build/ros2_mapping/ros2_mapping.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_mapping/ros2_mapping.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/mapping_localization.launch.py -> /home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/launch
+running install_egg_info
+removing '/home/arz-1017/task/task_ws/install/ros2_mapping/lib/python3.12/site-packages/ros2_mapping-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/ros2_mapping/ros2_mapping.egg-info to /home/arz-1017/task/task_ws/install/ros2_mapping/lib/python3.12/site-packages/ros2_mapping-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/arz-1017/task/task_ws/build/ros2_mapping/install.log'

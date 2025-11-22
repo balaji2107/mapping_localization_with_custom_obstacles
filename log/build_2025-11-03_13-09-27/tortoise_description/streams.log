@@ -1,0 +1,36 @@
+[0.515s] Invoking command in '/home/arz-1017/task/task_ws/src/tortoise_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/tortoise_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/tortoise_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoise_description build --build-base /home/arz-1017/task/task_ws/build/tortoise_description/build install --record /home/arz-1017/task/task_ws/build/tortoise_description/install.log --single-version-externally-managed install_data
+[0.691s] running egg_info
+[0.691s] creating ../../build/tortoise_description/tortoise_description.egg-info
+[0.704s] writing ../../build/tortoise_description/tortoise_description.egg-info/PKG-INFO
+[0.704s] writing dependency_links to ../../build/tortoise_description/tortoise_description.egg-info/dependency_links.txt
+[0.704s] writing requirements to ../../build/tortoise_description/tortoise_description.egg-info/requires.txt
+[0.704s] writing top-level names to ../../build/tortoise_description/tortoise_description.egg-info/top_level.txt
+[0.704s] writing manifest file '../../build/tortoise_description/tortoise_description.egg-info/SOURCES.txt'
+[0.730s] reading manifest file '../../build/tortoise_description/tortoise_description.egg-info/SOURCES.txt'
+[0.731s] writing manifest file '../../build/tortoise_description/tortoise_description.egg-info/SOURCES.txt'
+[0.731s] running build
+[0.731s] running build_py
+[0.731s] creating /home/arz-1017/task/task_ws/build/tortoise_description/build
+[0.731s] creating /home/arz-1017/task/task_ws/build/tortoise_description/build/lib
+[0.731s] creating /home/arz-1017/task/task_ws/build/tortoise_description/build/lib/tortoise_description
+[0.731s] copying tortoise_description/__init__.py -> /home/arz-1017/task/task_ws/build/tortoise_description/build/lib/tortoise_description
+[0.732s] running install
+[0.735s] running install_lib
+[0.748s] creating /home/arz-1017/task/task_ws/install/tortoise_description/lib/python3.12/site-packages/tortoise_description
+[0.748s] copying /home/arz-1017/task/task_ws/build/tortoise_description/build/lib/tortoise_description/__init__.py -> /home/arz-1017/task/task_ws/install/tortoise_description/lib/python3.12/site-packages/tortoise_description
+[0.748s] byte-compiling /home/arz-1017/task/task_ws/install/tortoise_description/lib/python3.12/site-packages/tortoise_description/__init__.py to __init__.cpython-312.pyc
+[0.749s] running install_data
+[0.749s] creating /home/arz-1017/task/task_ws/install/tortoise_description/share/ament_index
+[0.749s] creating /home/arz-1017/task/task_ws/install/tortoise_description/share/ament_index/resource_index
+[0.749s] creating /home/arz-1017/task/task_ws/install/tortoise_description/share/ament_index/resource_index/packages
+[0.749s] copying resource/tortoise_description -> /home/arz-1017/task/task_ws/install/tortoise_description/share/ament_index/resource_index/packages
+[0.749s] copying package.xml -> /home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description
+[0.749s] creating /home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/launch
+[0.749s] copying launch/display.launch.py -> /home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/launch
+[0.749s] creating /home/arz-1017/task/task_ws/install/tortoise_description/share/tortoisebot_gazebo
+[0.749s] creating /home/arz-1017/task/task_ws/install/tortoise_description/share/tortoisebot_gazebo/urdf
+[0.749s] running install_egg_info
+[0.763s] Copying ../../build/tortoise_description/tortoise_description.egg-info to /home/arz-1017/task/task_ws/install/tortoise_description/lib/python3.12/site-packages/tortoise_description-0.0.0-py3.12.egg-info
+[0.763s] running install_scripts
+[0.851s] writing list of installed files to '/home/arz-1017/task/task_ws/build/tortoise_description/install.log'
+[0.867s] Invoked command in '/home/arz-1017/task/task_ws/src/tortoise_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/tortoise_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/tortoise_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoise_description build --build-base /home/arz-1017/task/task_ws/build/tortoise_description/build install --record /home/arz-1017/task/task_ws/build/tortoise_description/install.log --single-version-externally-managed install_data

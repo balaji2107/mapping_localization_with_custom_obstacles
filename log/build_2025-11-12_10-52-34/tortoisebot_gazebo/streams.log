@@ -1,0 +1,25 @@
+[1.402s] Invoking command in '/home/arz-1017/task/task_ws/src/tortoisebot_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/tortoisebot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoisebot_gazebo build --build-base /home/arz-1017/task/task_ws/build/tortoisebot_gazebo/build install --record /home/arz-1017/task/task_ws/build/tortoisebot_gazebo/install.log --single-version-externally-managed install_data
+[1.693s] running egg_info
+[1.716s] writing ../../build/tortoisebot_gazebo/tortoisebot_gazebo.egg-info/PKG-INFO
+[1.717s] writing dependency_links to ../../build/tortoisebot_gazebo/tortoisebot_gazebo.egg-info/dependency_links.txt
+[1.717s] writing entry points to ../../build/tortoisebot_gazebo/tortoisebot_gazebo.egg-info/entry_points.txt
+[1.717s] writing requirements to ../../build/tortoisebot_gazebo/tortoisebot_gazebo.egg-info/requires.txt
+[1.717s] writing top-level names to ../../build/tortoisebot_gazebo/tortoisebot_gazebo.egg-info/top_level.txt
+[1.760s] reading manifest file '../../build/tortoisebot_gazebo/tortoisebot_gazebo.egg-info/SOURCES.txt'
+[1.761s] writing manifest file '../../build/tortoisebot_gazebo/tortoisebot_gazebo.egg-info/SOURCES.txt'
+[1.761s] running build
+[1.761s] running build_py
+[1.762s] running install
+[1.768s] running install_lib
+[1.791s] running install_data
+[1.791s] running install_egg_info
+[1.815s] removing '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/python3.12/site-packages/tortoisebot_gazebo-0.0.0-py3.12.egg-info' (and everything under it)
+[1.815s] Copying ../../build/tortoisebot_gazebo/tortoisebot_gazebo.egg-info to /home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/python3.12/site-packages/tortoisebot_gazebo-0.0.0-py3.12.egg-info
+[1.816s] running install_scripts
+[1.960s] Installing filter_median script to /home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/tortoisebot_gazebo
+[1.960s] Installing filter_moving_avg script to /home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/tortoisebot_gazebo
+[1.960s] Installing find_direction script to /home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/tortoisebot_gazebo
+[1.960s] Installing laser_data script to /home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/tortoisebot_gazebo
+[1.961s] Installing print_data script to /home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/tortoisebot_gazebo
+[1.961s] writing list of installed files to '/home/arz-1017/task/task_ws/build/tortoisebot_gazebo/install.log'
+[2.006s] Invoked command in '/home/arz-1017/task/task_ws/src/tortoisebot_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/tortoisebot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoisebot_gazebo build --build-base /home/arz-1017/task/task_ws/build/tortoisebot_gazebo/build install --record /home/arz-1017/task/task_ws/build/tortoisebot_gazebo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,277 @@
+[0.107s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.107s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7afd3cd9a810>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7afd3cd9a510>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7afd3cd9a510>>, mixin_verb=('build',))
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.145s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arz-1017/task/task_ws'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depth_camera' with type 'ros.ament_python' and name 'depth_camera'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mapping) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mapping) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mapping) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mapping) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mapping) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mapping) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mapping) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mapping) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mapping' with type 'ros.ament_python' and name 'ros2_mapping'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoise_description) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoise_description) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoise_description) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoise_description) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoise_description) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoise_description) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoise_description) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoise_description) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoise_description) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoise_description' with type 'ros.ament_python' and name 'tortoise_description'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_gazebo) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_gazebo) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_gazebo) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_gazebo) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_gazebo) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_gazebo) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_gazebo) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_gazebo) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_gazebo' with type 'ros.ament_python' and name 'tortoisebot_gazebo'
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/arz-1017/task/task_ws/install
+[0.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/jazzy
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'depth_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arz-1017/task/task_ws/build/depth_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arz-1017/task/task_ws/install/depth_camera', 'merge_install': False, 'path': '/home/arz-1017/task/task_ws/src/depth_camera', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'ros2_mapping' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'ros2_mapping' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'ros2_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'ros2_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'ros2_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'ros2_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'ros2_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'ros2_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'ros2_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arz-1017/task/task_ws/build/ros2_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arz-1017/task/task_ws/install/ros2_mapping', 'merge_install': False, 'path': '/home/arz-1017/task/task_ws/src/ros2_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoise_description' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoise_description' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoise_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoise_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoise_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoise_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoise_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoise_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoise_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'tortoise_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arz-1017/task/task_ws/build/tortoise_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arz-1017/task/task_ws/install/tortoise_description', 'merge_install': False, 'path': '/home/arz-1017/task/task_ws/src/tortoise_description', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'tortoisebot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arz-1017/task/task_ws/build/tortoisebot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo', 'merge_install': False, 'path': '/home/arz-1017/task/task_ws/src/tortoisebot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.273s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.274s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arz-1017/task/task_ws/src/depth_camera' with build type 'ament_python'
+[0.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_camera', 'ament_prefix_path')
+[0.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/hook/ament_prefix_path.ps1'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/hook/ament_prefix_path.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/hook/ament_prefix_path.sh'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arz-1017/task/task_ws/src/ros2_mapping' with build type 'ament_python'
+[0.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mapping', 'ament_prefix_path')
+[0.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/hook/ament_prefix_path.ps1'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/hook/ament_prefix_path.dsv'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/hook/ament_prefix_path.sh'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arz-1017/task/task_ws/src/tortoise_description' with build type 'ament_python'
+[0.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoise_description', 'ament_prefix_path')
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/hook/ament_prefix_path.ps1'
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/hook/ament_prefix_path.dsv'
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/hook/ament_prefix_path.sh'
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arz-1017/task/task_ws/src/tortoisebot_gazebo' with build type 'ament_python'
+[0.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_gazebo', 'ament_prefix_path')
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/ament_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/ament_prefix_path.dsv'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/ament_prefix_path.sh'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.536s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arz-1017/task/task_ws/src/depth_camera'
+[0.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.794s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arz-1017/task/task_ws/src/ros2_mapping'
+[0.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.795s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.039s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arz-1017/task/task_ws/src/tortoise_description'
+[1.039s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.039s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.288s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arz-1017/task/task_ws/src/tortoisebot_gazebo'
+[1.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arz-1017/task/task_ws/src/tortoise_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/tortoise_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/tortoise_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoise_description build --build-base /home/arz-1017/task/task_ws/build/tortoise_description/build install --record /home/arz-1017/task/task_ws/build/tortoise_description/install.log --single-version-externally-managed install_data
+[1.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arz-1017/task/task_ws/src/tortoisebot_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/tortoisebot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoisebot_gazebo build --build-base /home/arz-1017/task/task_ws/build/tortoisebot_gazebo/build install --record /home/arz-1017/task/task_ws/build/tortoisebot_gazebo/install.log --single-version-externally-managed install_data
+[1.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arz-1017/task/task_ws/src/ros2_mapping': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/ros2_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/ros2_mapping/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_mapping build --build-base /home/arz-1017/task/task_ws/build/ros2_mapping/build install --record /home/arz-1017/task/task_ws/build/ros2_mapping/install.log --single-version-externally-managed install_data
+[1.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arz-1017/task/task_ws/src/depth_camera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/depth_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/depth_camera/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_camera build --build-base /home/arz-1017/task/task_ws/build/depth_camera/build install --record /home/arz-1017/task/task_ws/build/depth_camera/install.log --single-version-externally-managed install_data
+[2.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arz-1017/task/task_ws/src/tortoisebot_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/tortoisebot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoisebot_gazebo build --build-base /home/arz-1017/task/task_ws/build/tortoisebot_gazebo/build install --record /home/arz-1017/task/task_ws/build/tortoisebot_gazebo/install.log --single-version-externally-managed install_data
+[2.599s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo' for CMake module files
+[2.600s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo' for CMake config files
+[2.600s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib'
+[2.601s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/bin'
+[2.601s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/pkgconfig/tortoisebot_gazebo.pc'
+[2.601s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/lib/python3.12/site-packages'
+[2.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoisebot_gazebo', 'pythonpath')
+[2.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/pythonpath.ps1'
+[2.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/pythonpath.dsv'
+[2.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/hook/pythonpath.sh'
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/bin'
+[2.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoisebot_gazebo)
+[2.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.ps1'
+[2.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.dsv'
+[2.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.sh'
+[2.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.bash'
+[2.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.zsh'
+[2.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arz-1017/task/task_ws/install/tortoisebot_gazebo/share/colcon-core/packages/tortoisebot_gazebo)
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoise_description' for CMake module files
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoise_description' for CMake config files
+[2.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arz-1017/task/task_ws/src/tortoise_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/tortoise_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/tortoise_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoise_description build --build-base /home/arz-1017/task/task_ws/build/tortoise_description/build install --record /home/arz-1017/task/task_ws/build/tortoise_description/install.log --single-version-externally-managed install_data
+[2.609s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoise_description/lib'
+[2.609s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoise_description/bin'
+[2.609s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoise_description/lib/pkgconfig/tortoise_description.pc'
+[2.609s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoise_description/lib/python3.12/site-packages'
+[2.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortoise_description', 'pythonpath')
+[2.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/hook/pythonpath.ps1'
+[2.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/hook/pythonpath.dsv'
+[2.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/hook/pythonpath.sh'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/tortoise_description/bin'
+[2.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortoise_description)
+[2.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/package.ps1'
+[2.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/package.dsv'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/package.sh'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/package.bash'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/tortoise_description/share/tortoise_description/package.zsh'
+[2.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arz-1017/task/task_ws/install/tortoise_description/share/colcon-core/packages/tortoise_description)
+[2.615s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/depth_camera' for CMake module files
+[2.615s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/depth_camera' for CMake config files
+[2.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arz-1017/task/task_ws/src/depth_camera' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/depth_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/depth_camera/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_camera build --build-base /home/arz-1017/task/task_ws/build/depth_camera/build install --record /home/arz-1017/task/task_ws/build/depth_camera/install.log --single-version-externally-managed install_data
+[2.616s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/depth_camera/lib'
+[2.616s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/depth_camera/bin'
+[2.616s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/depth_camera/lib/pkgconfig/depth_camera.pc'
+[2.617s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/depth_camera/lib/python3.12/site-packages'
+[2.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_camera', 'pythonpath')
+[2.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/hook/pythonpath.ps1'
+[2.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/hook/pythonpath.dsv'
+[2.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/hook/pythonpath.sh'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/depth_camera/bin'
+[2.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_camera)
+[2.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/package.ps1'
+[2.619s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/package.dsv'
+[2.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/package.sh'
+[2.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/package.bash'
+[2.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/depth_camera/share/depth_camera/package.zsh'
+[2.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arz-1017/task/task_ws/install/depth_camera/share/colcon-core/packages/depth_camera)
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/ros2_mapping' for CMake module files
+[2.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arz-1017/task/task_ws/src/ros2_mapping' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1017/task/task_ws/build/ros2_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1017/task/task_ws/install/ros2_mapping/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_mapping build --build-base /home/arz-1017/task/task_ws/build/ros2_mapping/build install --record /home/arz-1017/task/task_ws/build/ros2_mapping/install.log --single-version-externally-managed install_data
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/ros2_mapping' for CMake config files
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/ros2_mapping/lib'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/ros2_mapping/bin'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/ros2_mapping/lib/pkgconfig/ros2_mapping.pc'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/ros2_mapping/lib/python3.12/site-packages'
+[2.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mapping', 'pythonpath')
+[2.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/hook/pythonpath.ps1'
+[2.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/hook/pythonpath.dsv'
+[2.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/hook/pythonpath.sh'
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1017/task/task_ws/install/ros2_mapping/bin'
+[2.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_mapping)
+[2.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/package.ps1'
+[2.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/package.dsv'
+[2.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/package.sh'
+[2.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/package.bash'
+[2.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1017/task/task_ws/install/ros2_mapping/share/ros2_mapping/package.zsh'
+[2.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arz-1017/task/task_ws/install/ros2_mapping/share/colcon-core/packages/ros2_mapping)
+[2.629s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.629s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.629s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.629s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.636s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.636s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.648s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.648s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arz-1017/task/task_ws/install/local_setup.ps1'
+[2.649s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arz-1017/task/task_ws/install/_local_setup_util_ps1.py'
+[2.650s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arz-1017/task/task_ws/install/setup.ps1'
+[2.651s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arz-1017/task/task_ws/install/local_setup.sh'
+[2.652s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arz-1017/task/task_ws/install/_local_setup_util_sh.py'
+[2.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arz-1017/task/task_ws/install/setup.sh'
+[2.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arz-1017/task/task_ws/install/local_setup.bash'
+[2.656s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arz-1017/task/task_ws/install/setup.bash'
+[2.658s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arz-1017/task/task_ws/install/local_setup.zsh'
+[2.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arz-1017/task/task_ws/install/setup.zsh'

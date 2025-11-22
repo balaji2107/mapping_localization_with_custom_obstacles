@@ -1,0 +1,15 @@
+slam_toolbox:
+  ros__parameters:
+    base_frame: tortoisebot/base_link/gpu_lidar 
+    
+    # You can keep your increased buffer size here
+    scan_buffer_size: 50
+    
+    # Also ensure the odom_frame is explicitly set
+    odom_frame: odom 
+    
+    # Ensure scan_topic is correct (though it defaults to /scan)
+    scan_topic: /scan 
+    
+    # (Optional, but good practice if needed)
+    # tf_buffer_duration: 30.0
